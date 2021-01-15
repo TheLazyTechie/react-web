@@ -28,15 +28,17 @@ img {
 .search {
   box-sizing: border-box;
 }
-.sihnin {
-  box-sizing: border-box;
-  align-items: right;
-}
+
+.signin,
 .signup {
-  border: 1px solid black;
-  background-color: #4288fd;
+  background-color: rgba(66, 135, 240, 0.9);
   box-sizing: border-box;
   align-items: right;
+  color: white;
+  padding: 9px;
+  border-radius: 5px;
+  margin: 7px;
+  border-style: none;
 }
 ul {
   padding: 25px;
