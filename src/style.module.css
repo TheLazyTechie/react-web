@@ -31,7 +31,7 @@ img {
 
 .signin,
 .signup {
-  background-color: rgba(66, 135, 240, 0.9);
+  background-color: rgb(66, 135, 253);
   box-sizing: border-box;
   align-items: right;
   color: white;
