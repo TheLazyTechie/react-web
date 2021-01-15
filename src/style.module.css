@@ -1,0 +1,48 @@
+body {
+  margin: 0px;
+}
+img {
+  margin: 0px;
+  padding: 15px;
+}
+.topbar {
+  background: white;
+  height: 50px;
+  box-shadow: 2px 2px 2px 2px #0002;
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+.topbar > img {
+  width: 50px;
+}
+.input {
+  padding: 5px;
+  border-radius: 5px;
+  margin: 3px;
+}
+.button {
+  width: 100px;
+  height: 30px;
+}
+.search {
+  box-sizing: border-box;
+  box-shadow: 2px 2px rgba(0, 0, 0, 0.09);
+}
+
+ul {
+  padding: 25px;
+}
+
+li {
+  list-style-type: none;
+  padding: 25px;
+  display: inline;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.footer {
+  margin-top: 39%;
+  background-color: rgba(0, 0, 0, 0.09);
+  height: 70px;
+  text-align: center;
+}
