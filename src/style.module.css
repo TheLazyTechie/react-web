@@ -27,9 +27,17 @@ img {
 }
 .search {
   box-sizing: border-box;
-  box-shadow: 2px 2px rgba(0, 0, 0, 0.09);
 }
-
+.sihnin {
+  box-sizing: border-box;
+  align-items: right;
+}
+.signup {
+  border: 1px solid black;
+  background-color: skyblue;
+  box-sizing: border-box;
+  align-items: right;
+}
 ul {
   padding: 25px;
 }
