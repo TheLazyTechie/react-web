@@ -1,3 +1,8 @@
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  body {
+    max-width: 450px;
+  }
+}
 body {
   margin: 0px;
 }
@@ -17,28 +22,32 @@ img {
   width: 50px;
 }
 .input {
+  border-style: none;
+  border: 1px solid grey;
   padding: 5px;
-  border-radius: 5px;
-  margin: 3px;
+  border-radius: 5px 0px 0px 5px;
+  margin: 0px;
+  border-right: none;
 }
 .button {
-  width: 100px;
-  height: 30px;
-}
-.search {
+  border: 1px solid #0007;
+  border-radius: 0px 5px 5px 0px;
+  background: white;
   box-sizing: border-box;
+  width: 80px;
+  height: 26px;
+  padding: 0.5px;
+  margin-left: 0px;
+  border-left: none;
 }
-
 .signin,
 .signup {
-  background-color: rgb(66, 135, 253);
-  box-sizing: border-box;
-  align-items: right;
-  color: white;
-  padding: 9px;
+  background-color: white;
+  margin-left: 90%;
+  padding: 5px;
+  color: rgb(66, 135, 253);
   border-radius: 5px;
-  margin: 7px;
-  border-style: none;
+  border: 1px solid rgb(66, 135, 253);
 }
 ul {
   padding: 25px;
